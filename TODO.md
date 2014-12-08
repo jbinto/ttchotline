@@ -6,11 +6,12 @@
 [ACTUAL: 40m] [40m]      * This planning right now
 [ACTUAL: 80m] [15m]      * Deploy empty ttchotline rails app to staging / production 
 ```
+[ACTUAL: 55m] [20m]      * Use an xml builder gem (rabl? builder? google this) to create a static - fake - hardcoded - Plivo XML
 
 ## NEXT
 
 ```
-[20m]      * Use an xml builder gem (rabl? builder? google this) to create a static - fake - hardcoded - Plivo XML
+
 [10m]      * Buy a Toronto DID for the app
 [10m]      * Wire it up and test it
 
