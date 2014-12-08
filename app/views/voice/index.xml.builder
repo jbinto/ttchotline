@@ -1,6 +1,6 @@
-route = "504-King"
-direction = "West - 504 King towards Dundas West Station via King"
-stop = "King St West at Spadina Ave"
+route = "5o4-King"
+direction = "West - 5o4 King towards Dundas West Station viuh King"
+stop = "King St West at Spadiena Ave"
 predictions = ["4 minutes", "11 minutes", "21 minutes"]
 
 xml.instruct!
