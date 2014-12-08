@@ -12,7 +12,7 @@ xml.Response do
       xml.Speak p
       xml.Wait(Length: 1)
     end
-    xml.Speak "Thanks for riding the rocket"
   end
 
+  xml.Speak @message
 end
