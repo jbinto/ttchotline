@@ -39,3 +39,5 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+gem 'capistrano', '~> 3.3.0'
