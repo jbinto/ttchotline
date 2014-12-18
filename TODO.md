@@ -17,6 +17,13 @@
 ```
 [30m]      * In repl, use nextbus gem to get a specific prediction  
              * Any issues would likely be here, this is the biggest outside dependency
+
+* Change signature of predictions to require either a branch code (preferred), or direction text.
+* Return only predictions matching the specified branch, in a single flattened array. If branch_code is `nil`, return all predictions.
+* Add multiple fixtures (+ tests) for different prediction scenarios, e.g. multiple directions, one direction, no predictions found.
+* Test out many different stop scenarios in the console
+
+
 [30m]      * Create model for User, Stop
             * user has_many stops
             * user: id, *stops, { pin, *phone_numbers, ... }
